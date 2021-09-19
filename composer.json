@@ -1,0 +1,12 @@
+{
+    "name": "david-baron/ugc-transliterator",
+    "description": "Surname transliteration for UGC Forum.",
+    "type": "module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Baron",
+            "email": "davidbaron@mycodingsoft.com"
+        }
+    ]
+}
