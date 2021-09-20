@@ -1,4 +1,4 @@
-Transliterate
+Transliterator
 ===============
 
 Surname transliteration for [UGF Forum](https://ukrgenealogy.com.ua/).
