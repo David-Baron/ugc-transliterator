@@ -18,18 +18,18 @@ In viewforum_body.html
 
 ```html
 > replace
-> <!-- IF topicrow.U_VIEW_TOPIC --><a href="{topicrow.U_VIEW_TOPIC}" class="topictitle">{topicrow.TOPIC_TITLE}</a><!-- ELSE -->{topicrow.TOPIC_TITLE}<!-- ENDIF -->
+> <dt<!-- IF topicrow.TOPIC_ICON_IMG and S_TOPIC_ICONS --> style="background-image: url({T_ICONS_PATH}{topicrow.TOPIC_ICON_IMG}); background-repeat: no-repeat;"<!-- ENDIF --> title="{topicrow.TOPIC_FOLDER_IMG_ALT}"><!-- IF topicrow.S_UNREAD_TOPIC --><a href="{topicrow.U_NEWEST_POST}">{NEWEST_POST_IMG}</a> <!-- ENDIF --><a href="{topicrow.U_VIEW_TOPIC}" class="topictitle">{topicrow.TOPIC_TITLE}</a>
 > by
-> <!-- IF topicrow.U_VIEW_TOPIC --><a href="{topicrow.U_VIEW_TOPIC}" class="topictitle">{topicrow.TOPIC_TITLE} <small class="row-item-transliteration" data-id="{topicrow.TOPIC_ID}" data-name="{topicrow.TOPIC_TITLE}"></small></a><!-- ELSE -->{topicrow.TOPIC_TITLE}<!-- ENDIF -->
+> <dt<!-- IF topicrow.TOPIC_ICON_IMG and S_TOPIC_ICONS --> style="background-image: url({T_ICONS_PATH}{topicrow.TOPIC_ICON_IMG}); background-repeat: no-repeat;"<!-- ENDIF --> title="{topicrow.TOPIC_FOLDER_IMG_ALT}"><!-- IF topicrow.S_UNREAD_TOPIC --><a href="{topicrow.U_NEWEST_POST}">{NEWEST_POST_IMG}</a> <!-- ENDIF --><a href="{topicrow.U_VIEW_TOPIC}" class="topictitle">{topicrow.TOPIC_TITLE}  <small class="row-item-transliteration" data-id="{topicrow.TOPIC_ID}" data-name="{topicrow.TOPIC_TITLE}"></small></a>
 ```
 
 In overall_footer.html
 
 ```html
 > after
-><!-- INCLUDEJS ajax.js -->
+> <script src="{T_TEMPLATE_PATH}/assets/slick/slick.min.js"></script>
 > add
-> <!-- INCLUDEJS transliteration.js -->
+> <script src="{T_TEMPLATE_PATH}/transliteration.js"></script>
 ```
 
 - In the administration panel include the new theme in all forums that need it.
