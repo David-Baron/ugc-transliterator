@@ -1,6 +1,6 @@
 <?php 
 
-require 'php-translit/Translit.php';
+require __DIR__ .'/Translit.php';
 
 if ($_GET['cyrillic-string']) {
     echo tranliterate($_GET['cyrillic-string']);
