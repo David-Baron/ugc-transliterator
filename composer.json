@@ -1,6 +1,6 @@
 {
-    "name": "david-baron/ugc-transliterator",
-    "description": "Surname transliteration for UGC Forum.",
+    "name": "david-baron/ugf-transliterator",
+    "description": "Surname transliteration for UGF Forum.",
     "type": "module",
     "license": "MIT",
     "authors": [
