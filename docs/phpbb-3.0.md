@@ -10,8 +10,8 @@ Files
 Templates
 ---------
 
-You need to duplicate your theme and rename it as you want.
-Activate the theme in the admin panel.
+- You need to duplicate your theme and rename it as you want.
+- Activate the theme in the admin panel.
 
 In viewforum_body.html
 
@@ -31,4 +31,5 @@ In overall_footer.html
 > <!-- INCLUDEJS transliteration.js -->
 ```
 
-In the administration panel include the new theme in all forums that need it.
+- In the administration panel include the new theme in all forums that need it. 
+- Resynchronise forum.
