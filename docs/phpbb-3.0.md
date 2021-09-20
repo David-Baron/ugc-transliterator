@@ -4,6 +4,7 @@ Transliterate with phpbb 3.0
 Files
 ---------
 
+- Download and extract the archive.
 - Add the transliterator folder in base of forum.
 - Add the transliterator.js file in your template theme directory.
 
