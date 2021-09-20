@@ -31,5 +31,5 @@ In overall_footer.html
 > <!-- INCLUDEJS transliteration.js -->
 ```
 
-- In the administration panel include the new theme in all forums that need it. 
+- In the administration panel include the new theme in all forums that need it.
 - Resynchronise forum.
