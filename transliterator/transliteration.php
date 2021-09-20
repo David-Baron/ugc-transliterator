@@ -1,5 +1,8 @@
 <?php 
-
+/**
+ * Inspired by ashtokalo/php-translit
+ * Modified to found the most popular surname form.
+ */
 require __DIR__ .'/Translit.php';
 
 if ($_GET['cyrillic-string']) {
