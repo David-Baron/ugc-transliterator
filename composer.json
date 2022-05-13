@@ -1,6 +1,7 @@
 {
     "name": "david-baron/ugf-transliterator",
-    "description": "Surname transliteration for UGF Forum.",
+    "description": "Surname transliteration from cyrillic surnames into Latin in its most popular form.",
+    "keywords": ["transliteration"],
     "type": "module",
     "license": "MIT",
     "authors": [

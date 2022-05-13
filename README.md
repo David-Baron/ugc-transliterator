@@ -16,4 +16,4 @@ Used by
 Credits
 ---------
 
-- Alexey Shtokalo: ashtokalo/php-translit for the base transliterator
+- Alexey Shtokalo: ashtokalo/php-translit for the base transliterator(! original modified)
