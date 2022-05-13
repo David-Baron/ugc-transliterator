@@ -10,3 +10,8 @@ Install
 ---------
 
 Read the documentation corresponding to the version of the forum [here](https://github.com/David-Baron/ugf-transliterator/tree/master/docs)
+
+Credits
+---------
+
+- Alexey Shtokalo: ashtokalo/php-translit for the base transliterator
