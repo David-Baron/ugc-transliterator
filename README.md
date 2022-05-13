@@ -7,6 +7,7 @@ Install
 ---------
 
 Read the documentation corresponding to the version of the forum [here](https://github.com/David-Baron/ugf-transliterator/tree/master/docs)
+If you want an implementation that is not documented, open an issue.
 
 Used by
 --------
