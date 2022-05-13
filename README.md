@@ -1,7 +1,7 @@
 Transliterator
 ===============
 
-Transliteration from cyrillic surnames into Latin in its most popular form.
+Transliteration of Cyrillic surnames into Latin in its most popular form.
 
 Install
 ---------
